@@ -3,8 +3,6 @@ a{
 text-decoration: none ;
 Size:12px;
 Line-height:16px;
-letter-spacing:4%;
-Decoration:Underline;
 }
 ul,ol{
 list-style-type:none;
@@ -45,8 +43,8 @@ height:600px;
 }
 
 .header-title{
-color: var#FFF;
-text-align: center;
+color: #FFF;
+text-align:center;
 /* Header 1 */
 font-size:56px;
 line-height:1.7;
@@ -55,7 +53,6 @@ letter-spacing:2%;
 
 body{
 font-family: Roboto;
-letter-spacing:2%;
 font-weight:400;
 font-size:16px;
 line-height:24px;
@@ -78,9 +75,6 @@ flex-shrink: 0;
 /*section3*/
 .oul-team{
 background-color: #F4F4FD;
-width:1440px;
-height:732px;
-flex-shrink:0;
 }
 
 .pic{
@@ -115,7 +109,7 @@ flex-shrink:0;
     letter-spacing:0.54px;
     text-transform: uppercase;
 }
-.footer.text{
+.footer-text{
 color: rgba(244, 244, 253, 1);
 /* Body */
 font-size:16px;
