@@ -25,9 +25,9 @@ ul,ol{
 list-style-type:none;
 }
 /*section-1*/
-.link{
+.header-menu-item link{
 font-family:'Raleway',sans-serif;
-color: var(--iris, #4d59e5);
+color: var(--iris, #4d5ae5);
 font-weight:800;
 font-size:18px;
 line-height:1.17;
@@ -66,7 +66,7 @@ letter-spacing:0.54px;
 text-transform:uppercase;
 text-decoration:none;
 }
-.header-menu-item{
+.header-menu-item list{
 font-weight:500;
 font-size:16px;
 line-height:1.5;
