@@ -217,13 +217,6 @@ background-color: #404BBF;
 color: #FFFFFF;
 background-color: #404BBF;
 }
-
-
-
-
-
-
-
 /*button-2>web-site*/
 [type]=button.clik-web-site{
 font-family:"Roboto",sans-serif;
@@ -293,7 +286,7 @@ font-size:16px;
 line-height:1.5;
 letter-spacing:0.04em;
 color: #ffffff;
-cursor: pointer;
+cursor:pointer;
 }
 .title-click-bth:hover{
 font-family: "Roboto", sans-serif;
@@ -347,13 +340,13 @@ list-style:none;
 background-color: #FFFFFF;
 }
 
-.h1{
+.list-havigation{
 line-height:1.07;
 letter-spacing:0.02em;
 }
 
 /*section3*/
-.h2{
+.team-img{
 font-size:36px;
 line-height:1.11;
 text-align:center;
@@ -366,7 +359,7 @@ letter-spacing:0.72px;
 text-transform:capitalize;
 }
 
-.team{
+.team-img{
 font-size:36px;
 line-height:1.11; 
 text-align:center;
@@ -375,7 +368,7 @@ letter-spacing:0.02em;
 text-transform:capitalize;
 color:#2e2f42;
 }
-.img{
+.img-text{
 list-style:none;
 background-color: #FFFFFF;
 }
@@ -418,7 +411,7 @@ list-style:none;
 .footer{
 background-color: #2E2F42;
 }
-.footer-logo-link{
+.footer-logo{
 color: var(--iris, #4d5ae5);
 font-family:'Raleway',sans-serif;
 line-height:1.17;
