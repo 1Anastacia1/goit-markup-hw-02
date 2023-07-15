@@ -116,8 +116,8 @@ color: #404bbf;
 color: #404bbf;
 }
 /*button-1>all*/
-.click-all{
-font-family:"Roboto",sans-serif;
+[typ]button.click-all{
+font-family:'Roboto',sans-serif;
 font-weight:500;
 font-size:16px;
 line-height:1.5;
@@ -127,37 +127,37 @@ background-color: #F4F4FD;
 font-family:inherit;
 cursor:pointer;
 }
-.click-all:hover{
+[typ]button.click-all:hover{
 font-family:inherit;
 color: #FFFFFF;
 background-color: #404BBF;
 }
-.click-all:focus{
+[typ]button.click-all:focus{
 color: #FFFFFF;
 background-color: #404BBF;
 }
-.click-web-site{
-    font-family:"Roboto",sans-serif;
-    font-weight:500;
-    font-size:16px;
-    line-height:1.5;
-    letter-spacing:0.04em;
-    color: #4d5ae5;
-    background-color: #F4F4FD;
-    font-family:inherit;
-    cursor:pointer;
+[typ]button.click-web-site{
+font-family:'Roboto' sans-serif;
+font-weight:500;
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.04em;
+color: #4d5ae5;
+background-color: #F4F4FD;
+font-family:inherit;
+cursor:pointer;
 }
-.click-web-site:hover{
+[typ]button.click-web-site:hover{
 font-family:inherit;
 color: #FFFFFF;
 background-color: #404BBF;
 }
-.click-web-site:focus{
+[typ]button.click-web-site:focus{
 color: #FFFFFF;
 background-color: #404BBF;
 }
 .click-app{
-font-family:"Roboto",sans-serif;
+font-family:'Roboto',sans-serif;
 font-weight:500;
 font-size:16px;
 line-height:1.5;
@@ -170,16 +170,16 @@ list-style:none;
 text-decoration:none;
 
 }
-.click-app:hover{
+[typ]button.click-app:hover{
 color: #FFFFFF;
 background-color: #404BBF;
 }
-.click-app:focus{
+[typ]button.click-app:focus{
 color: #FFFFFF;
 background-color: #404BBF;
 }
 .click-design{
-font-family:"Roboto",sans-serif;
+font-family:'Roboto',sans-serif;
 font-weight:500;
 font-size:16px;
 line-height:1.5;
@@ -189,17 +189,17 @@ background-color: #F4F4FD;
 font-family:inherit;
 cursor:pointer;
 }
-.click-design:hover{
+[typ]button.click-design:hover{
 font-family:inherit;
 color: #FFFFFF;
 background-color: #404BBF;
 }
-.click-design:focus{
+[typ]button.click-design:focus{
 color: #FFFFFF;
 background-color: #404BBF;
 }
 .click-marketing{
-font-family:"Roboto",sans-serif;
+font-family:'Roboto',sans-serif;
 font-weight:500;
 font-size:16px;
 line-height:1.5;
@@ -209,11 +209,11 @@ background-color: #F4F4FD;
 font-family:inherit;
 cursor:pointer;
 }
-.click-marketing:hover{
+[typ]button.click-marketing:hover{
 color: #FFFFFF;
 background-color: #404BBF;
 }
-.click-marketing:focus{
+[typ]button.click-marketing:focus{
 color: #FFFFFF;
 background-color: #404BBF;
 }
@@ -324,13 +324,6 @@ letter-spacing:0.02em;
 color: #2e2f42;
 line-height:1.07;
 }
-.text{
-font-size:16px;
-line-height:1.5;
-letter-spacing:0.02em;
-color: #434455;
-
-}
 
 .caption-list-text{
 list-style:none;
@@ -395,15 +388,36 @@ letter-spacing:0.02em;
 text-transform:capitalize;
 color: #2e2f42;
 }
-.list-pic{
+.picture-text-list{
+list-style:none;
+}
+
+
+
+
+
+.picture-list-item{
+
+}
+
+.heading{
+font-weight:500;
+font-size:20px;
+line-height:1.2;
+letter-spacing:0.02em;
+color: #2e2f42;
+}
+.text{
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.02em;
+color: #434455;
+}
+.pic-list{
 background: lightgray;
 }
 .img{
 background: lightgray;
-}
-.list-picture{
-list-style:none;
-
 }
 
 /*footer*/
