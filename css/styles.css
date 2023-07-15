@@ -1,6 +1,6 @@
 :root{
 --brand-color: #4D5AE5;
---brand-color:-brand #4d5ae5;
+--brand-color: var(--iris, #4D5AE5);
 --brand-color:-brand #FFF;
 --brand-color:-brand #F4F4FD;
 --brand-color:-brand #FFFFFF;
@@ -17,8 +17,6 @@
 
 a{
 text-decoration:none;
-Size:12px;
-Line-height:16px;
 }
 ul,ol{
 list-style-type:none;
@@ -26,6 +24,13 @@ list-style-type:none;
 
 /*section-1*/
 .link{
+font-family:'Raleway',sans-serif;
+color: var(--iris, #4d59e5);
+font-weight:800;
+font-size:18px;
+line-height:1.17;
+letter-spacing:0.03em;
+text-transform:uppercase;
 text-decoration:none;
 }
 .list{
@@ -36,21 +41,20 @@ list-style:none;
 text-decoration:none;
 }
 .span-header{
---color: #2E2F42;
+color: #4D5AE5;
 }
 
-.link{
+.logo-link{
 font-family:'Raleway',sans-serif;
---color: #4D5AE5;
+color:-brand #2E2F42;
 font-weight:800;
 font-size:18px;
 line-height:1.17;
 letter-spacing:0.03em;
 text-transform:uppercase;
-text-decoration:none;
 }
 .link-studio{
---color: #4D5AE5;
+color: #4D5AE5;
 font-family:'Raleway', sans-serif;
 font-size:18px;
 font-weight:800;
@@ -68,19 +72,19 @@ font-weight:500;
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.04em;
---color: #4d5ae5;
---background-color: #F4F4FD;
+color: #4d5ae5;
+background-color: #F4F4FD;
 font-family:inherit;
 cursor:pointer;
 }
 .click:hover{
 font-family:inherit;
---color: #FFFFFF;
---background-color: #404BBF;
+color: #FFFFFF;
+background-color: #404BBF;
 }
 .click:focus{
---color: #FFFFFF;
---background-color: #404BBF;
+color: #FFFFFF;
+background-color: #404BBF;
 }
 /*button-1*/
 
@@ -91,8 +95,8 @@ font-weight:500;
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.04em;
---color: #4d5ae5;
---brand-color: #F4F4FD;
+color: #4d5ae5;
+brand-color: #F4F4FD;
 font-family:inherit;
 cursor:pointer;
 }
@@ -105,8 +109,8 @@ font-weight:500;
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.04em;
---color: #4d5ae5;
---background-color: #F4F4FD;
+color: #4d5ae5;
+background-color: #F4F4FD;
 font-family:inherit;
 cursor:pointer;
 }
@@ -118,8 +122,8 @@ font-weight:500;
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.04em;
---color: #4d5ae5;
---background-color: #F4F4FD;
+color: #4d5ae5;
+background-color: #F4F4FD;
 font-family:inherit;
 cursor:pointer;
 }
@@ -140,18 +144,18 @@ cursor:pointer;
 
 /*bth-title*/
 .click-bth:hover{
---background-color: #4D5AE5;
+background-color: #4D5AE5;
 font-family:inherit;
 font-weight:500;
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.04em;
---color: #ffffff;
---background-color: #404BBF;
+color: #ffffff;
+background-color: #404BBF;
 cursor: pointer;
 }
 .click-bth:active{
---background-color: #404BBF;
+background-color: #404BBF;
 cursor: pointer;
 }
 /*bth-title*/
@@ -166,7 +170,7 @@ letter-spacing:0.32px;
 }
 .title-icon{
 background: var(--navyblue, #2E2F42);
-
+font-weight:700;
 }
 
 .title{
@@ -186,10 +190,6 @@ body{
 font-family:'Roboto', sans-serif;
 color: var(--slate, #434455);
 background-color:#FFFFFF;
-font-weight:400;
-font-size:18px;
-line-height:24px;
-text-align:center;
 }
 
 .caption-list{
@@ -203,7 +203,6 @@ background-color: #FFF;
 line-height: 1.07;
 letter-spacing: 0.02em;
 }
-
 .h2{
 
 }
@@ -211,11 +210,9 @@ letter-spacing: 0.02em;
 .oul-team{
 background-color: #F4F4FD;
 }
-
 .pic{
 background: lightgray;
 }
-
 .img{
 background: lightgray;
 }
@@ -232,7 +229,7 @@ list-style:none;
 background-color: #2E2F42;
 }
 .footer-logo{
-color: #4d5ae5;
+color: var(--cloud, #F4F4FD);
 font-family:'Raleway',sans-serif;
 line-height:1.17;
 font-size:18px;   
@@ -241,7 +238,7 @@ letter-spacing:0.54px;
 text-transform: uppercase;
 }
 .link-studio{
-color: #f4f4fd;
+color: var(--iris, #4D5AE5);
 font-family:'Raleway',sans-serif;
 font-size:18px;
 font-weight:800;
@@ -250,11 +247,10 @@ letter-spacing:0.54px;
 text-transform:uppercase;
 }
 .footer-text{
-font-family:'Raleway',sans-serif;
 color: var(--cloud, #F4F4FD);
-/* Body */
-font-size:18px;
-font-weight:400;
-line-height:1.05;
-letter-spacing:0.32px;
+font-family:"Roboto",sans-serif;;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
 }
