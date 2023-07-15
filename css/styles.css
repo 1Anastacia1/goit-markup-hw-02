@@ -206,7 +206,8 @@ background-color:#FFFFFF;
 }
 
 .list-caption{
-background-color: #FFF;
+background-color: #FFFFFF;
+letter-spacing:0.02em;
 }
 
 .h1{
@@ -229,6 +230,7 @@ text-transform:capitalize;
 }
 .oul-team{
 background-color: #F4F4FD;
+letter-spacing:0.02em;
 }
 .team{
 font-size:36px;
@@ -238,7 +240,7 @@ letter-spacing:0.02em;
 text-transform:capitalize;
 color:#2e2f42
 }
-.list-img{
+.list img{
 list-style:none;
 }
 .img{
