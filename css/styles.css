@@ -24,9 +24,12 @@ list-style-type:none;
 list-style:none;
 }
 /*section-1*/
+.link{
+text-decoration: none
+}
 
 .link-logo{
-font-family:"Raleway", sans-serif;
+font-family: 'Raleway', sans-serif;
 color: #4D5AE5;
 font-weight:800;
 font-size:18px;
@@ -37,7 +40,7 @@ text-decoration: none;
 }
 .link-studio{
 color: #4D5AE5;
-font-family: Raleway;
+font-family:'Raleway', sans-serif;
 font-size:18px;
 font-weight:800;
 line-height:1.16px;
@@ -222,10 +225,10 @@ background-color: #2E2F42;
 color: #4d5ae5;
 font-family:"Raleway",sans-serif;
 line-height:1.17;
-    font-size:18px;   
-    font-weight:800;
-    letter-spacing:0.54px;
-    text-transform: uppercase;
+font-size:18px;   
+font-weight:800;
+letter-spacing:0.54px;
+text-transform: uppercase;
 }
 .link-studio{
 color: #f4f4fd;
