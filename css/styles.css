@@ -6,13 +6,13 @@
 --brand-color:-brand #FFFFFF;
 --brand-color:-brand rgba(244, 244, 253, 1);
 --brand-color:-brand #2E2F42;
---brand-color:-brand #434455;
+--brand-color: var(--slate, #434455);
 
 --brand-background-color: #4D5AE5;
 --brand-background-color: #404BBF;
 --brand-background-color: #F4F4FD;
 --brand-background-color:rgba(244, 244, 253, 1);
---brand-background-color: #2E2F42;
+--brand-background-color: var(--navyblue, #2E2F42);
 }
 
 a{
@@ -34,15 +34,14 @@ list-style:none;
 }
 .header-link{
 text-decoration:none;
-background: var(--navyblue, #2E2F42);
 }
-.span{
+.span-header{
 --color: #2E2F42;
 }
 
 .link{
 font-family:'Raleway',sans-serif;
-color: #4D5AE5;
+--color: #4D5AE5;
 font-weight:800;
 font-size:18px;
 line-height:1.17;
@@ -184,7 +183,7 @@ letter-spacing:2%;
 
 body{
 font-family:'Roboto', sans-serif;
---color: #434455;
+color: var(--slate, #434455);
 background-color:#FFFFFF;
 font-weight:400;
 font-size:18px;
