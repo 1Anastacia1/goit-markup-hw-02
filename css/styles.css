@@ -21,18 +21,87 @@ ul,ol{
 list-style-type:none;
 }
 .list{
-list-style:none
+list-style:none;
 }
-[type] {
-color: #4D5AE5;
-background-color:rgba(244, 244, 253, 1);
+/*button-1>all*/
+.click-all{
+font-family:"Roboto", sans-serif;
+font-weight:500;
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.04em;
+color:  #4d5ae5;
+background-color:#F4F4FD;
 font-family:inherit;
+cursor:pointer;
 }
-[type]:hover{
-color: #FFF;
-background: #404BBF;
+.click:hover{
 font-family: inherit;
+color: #FFFFFF;
+background-color: #404BBF;
 }
+.click:focus{
+color: #FFFFFF;
+background-color: #404BBF;
+}
+/*button-1*/
+
+/*button-2>web-site*/
+[type]=button.clik-web-site{
+font-family:"Roboto", sans-serif;
+font-weight:500;
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.04em;
+color:  #4d5ae5;
+background-color: #F4F4FD;
+font-family:inherit;
+cursor:pointer;
+}
+/*button-2*/
+
+
+/*button-3>app*/
+[type]=button.click-app{
+font-weight:500;
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.04em;
+color:  #4d5ae5;
+background-color: #F4F4FD;
+font-family:inherit;
+cursor:pointer;
+}
+/*button-3*/
+
+/*button-4>desing*/
+[type]=button.click-desing{
+font-weight:500;
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.04em;
+color:  #4d5ae5;
+background-color: #F4F4FD;
+font-family:inherit;
+cursor:pointer;
+}
+/*button-4*/
+
+/*button-5>marketing*/
+[type]=button.click-marketing{
+font-weight:500;
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.04em;
+color:  #4d5ae5;
+background-color: #F4F4FD;
+font-family:inherit;
+cursor:pointer; 
+}
+
+/*button-5>marketing*/
+
+/*bth-title*/
 .click-bth{
 
 font-family:inherit;
@@ -47,6 +116,11 @@ letter-spacing:0.03em;
 text-transform:uppercase;
 text-decoration: none;
 }
+.list{
+list-style:none;
+
+}
+
 .span{
 color: #4D5AE5;
 font-family: Raleway;
@@ -108,23 +182,26 @@ background: lightgray;
 .img{
 background: lightgray;
 }
+.list-picture{
+list-style:none;
 
+}
 
 .footer{
 background-color: #2E2F42;
 }
 .footer-logo{
-    color: #4d5ae5;
-    font-family:"Raleway",sans-serif;
-    line-height:1.17;
+color: #4d5ae5;
+font-family:"Raleway",sans-serif;
+line-height:1.17;
     font-size:18px;   
     font-weight:800;
     letter-spacing:0.54px;
     text-transform: uppercase;
 }
-.studio{
+.Studio{
 color: #2e2f42;
-font-family:Raleway;
+font-family:"Raleway",sans-serif;;
 font-size:18px;
 font-weight:800;
 line-height:21px; /* 116.667% */
