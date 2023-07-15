@@ -6,6 +6,7 @@
 --brand-color:-brand #FFFFFF;
 --brand-color: var(--cloud, #F4F4FD);
 --brand-color:-brand #2E2F42;
+--brand-color:#2e2f42;
 --brand-color: var(--slate, #434455);
 
 --brand-background-color: #4D5AE5;
@@ -41,7 +42,7 @@ list-style:none;
 text-decoration:none;
 }
 .span-header{
-color: #4d5ae5;
+color: #2e2f42 ;
 text-decoration:none;
 }
 
@@ -215,7 +216,7 @@ color: #434455;
 
 }
 
-.caption-text{
+.caption-list-text{
 list-style:none;
 }
 
