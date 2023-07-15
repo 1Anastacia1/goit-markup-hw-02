@@ -149,6 +149,7 @@ cursor:pointer;
 .title-icon{
 background: var(--navyblue, #2E2F42);
 font-weight:700;
+line-height:1.07; 
 }
 
 .title{
@@ -183,32 +184,43 @@ letter-spacing:0.04em;
 color: #ffffff;
 cursor:pointer;
 }
+.click-bth:focus{
+background-color: #404BBF;
+}
 
 .click-bth:active{
 background-color: #404BBF;
 cursor:pointer;
 }
-/*bth-title*/
-.text{
-font-size:16px;
-font-weight:400;
-line-height:24px;
-letter-spacing:0.32px;
-}
-
-
 body{
 font-family:'Roboto', sans-serif;
 color: var(--slate, #434455);
 background-color:#FFFFFF;
-}
-
-.caption-list{
-}
-
-.list-caption{
-background-color: #FFFFFF;
+line-height:1.5;
 letter-spacing:0.02em;
+}
+/*section-2*/
+.subject{
+font-weight:500;
+font-size:20px;
+line-height:1.2;
+letter-spacing:0.02em;
+color: #2e2f42;
+}
+.text{
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.02em;
+color: #434455;
+
+}
+
+.caption-text{
+list-style:none;
+}
+
+.caption{
+background-color: #FFFFFF;
 }
 
 .h1{
@@ -237,16 +249,16 @@ letter-spacing:0.02em;
 font-size:36px;
 line-height:1.11; 
 text-align:center;
+line-height: 1.5;
 letter-spacing:0.02em;
 text-transform:capitalize;
-color:#2e2f42
+color:#2e2f42;
 }
 .list img{
 list-style:none;
-}
-.img{
 background-color: #FFFFFF;
 }
+
 .team-slogan{
 font-weight:500;
 font-size:20px;
@@ -260,8 +272,6 @@ line-height:1.5;
 letter-spacing:0.02em;
 color: #434455;
 }
-
-
 
 .heading{
 font-size:36px;
