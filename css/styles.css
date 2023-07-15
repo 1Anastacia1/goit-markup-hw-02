@@ -1,15 +1,18 @@
 :root{
---color: #4D5AE5;
---color: #4d5ae5;
---color: #FFF;
---color: #F4F4FD;
---color: rgba(244, 244, 253, 1);
---color: #2E2F42;
+--brand-color: #4D5AE5;
+--brand-color:-brand #4d5ae5;
+--brand-color:-brand #FFF;
+--brand-color:-brand #F4F4FD;
+--brand-color:-brand #FFFFFF;
+--brand-color:-brand rgba(244, 244, 253, 1);
+--brand-color:-brand #2E2F42;
+--brand-color:-brand #434455;
 
---background: #404BBF;
---background-color:rgba(244, 244, 253, 1);
---background-color: #2E2F42;
---background-color: #2E2F42;
+--brand-background-color: #4D5AE5;
+--brand-background-color: #404BBF;
+--brand-background-color: #F4F4FD;
+--brand-background-color:rgba(244, 244, 253, 1);
+--brand-background-color: #2E2F42;
 }
 
 a{
@@ -20,7 +23,7 @@ Line-height:16px;
 ul,ol{
 list-style-type:none;
 }
-}
+
 /*section-1*/
 .link{
 text-decoration:none;
@@ -31,6 +34,10 @@ list-style:none;
 }
 .header-link{
 text-decoration:none;
+background: var(--navyblue, #2E2F42);
+}
+.span{
+--color: #2E2F42;
 }
 
 .link{
@@ -44,7 +51,7 @@ text-transform:uppercase;
 text-decoration:none;
 }
 .link-studio{
-color: #4D5AE5;
+--color: #4D5AE5;
 font-family:'Raleway', sans-serif;
 font-size:18px;
 font-weight:800;
@@ -62,19 +69,19 @@ font-weight:500;
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.04em;
-color:  #4d5ae5;
-background-color:#F4F4FD;
+--color: #4d5ae5;
+--background-color: #F4F4FD;
 font-family:inherit;
 cursor:pointer;
 }
 .click:hover{
 font-family:inherit;
-color: #FFFFFF;
-background-color: #404BBF;
+--color: #FFFFFF;
+--background-color: #404BBF;
 }
 .click:focus{
-color: #FFFFFF;
-background-color: #404BBF;
+--color: #FFFFFF;
+--background-color: #404BBF;
 }
 /*button-1*/
 
@@ -85,8 +92,8 @@ font-weight:500;
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.04em;
-color:  #4d5ae5;
-background-color: #F4F4FD;
+--color: #4d5ae5;
+--brand-color: #F4F4FD;
 font-family:inherit;
 cursor:pointer;
 }
@@ -99,8 +106,8 @@ font-weight:500;
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.04em;
-color:  #4d5ae5;
-background-color: #F4F4FD;
+--color: #4d5ae5;
+--background-color: #F4F4FD;
 font-family:inherit;
 cursor:pointer;
 }
@@ -112,8 +119,8 @@ font-weight:500;
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.04em;
-color:  #4d5ae5;
-background-color: #F4F4FD;
+--color: #4d5ae5;
+--background-color: #F4F4FD;
 font-family:inherit;
 cursor:pointer;
 }
@@ -125,8 +132,8 @@ font-weight:500;
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.04em;
-color:  #4d5ae5;
-background-color: #F4F4FD;
+--color: #4d5ae5;
+--background-color: #F4F4FD;
 font-family:inherit;
 cursor:pointer; 
 }
@@ -134,28 +141,22 @@ cursor:pointer;
 
 /*bth-title*/
 .click-bth:hover{
-background-color: #4D5AE5;
+--background-color: #4D5AE5;
 font-family:inherit;
 font-weight:500;
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.04em;
-color: #ffffff;
-background-color: #404BBF;
+--color: #ffffff;
+--background-color: #404BBF;
 cursor: pointer;
 }
 .click-bth:active{
-background-color: #404BBF;
+--background-color: #404BBF;
 cursor: pointer;
 }
 /*bth-title*/
 /*section>1*/
-
-
-.list{
-list-style:none;
-
-}
 
 
 .text{
@@ -165,11 +166,11 @@ line-height:24px;
 letter-spacing:0.32px;
 }
 .header-title-icon{
-background-color: #2E2F42;
+--background-color: #2E2F42;
 }
 
 .header-title{
-color: #FFF;
+--color: #FFF;
 text-align:center;
 /* Header 1 */
 font-size:56px;
@@ -183,7 +184,7 @@ letter-spacing:2%;
 
 body{
 font-family:'Roboto', sans-serif;
-color: #434455;
+--color: #434455;
 background-color:#FFFFFF;
 font-weight:400;
 font-size:18px;
@@ -232,7 +233,7 @@ background-color: #2E2F42;
 }
 .footer-logo{
 color: #4d5ae5;
-font-family:"Raleway",sans-serif;
+font-family:'Raleway',sans-serif;
 line-height:1.17;
 font-size:18px;   
 font-weight:800;
@@ -241,7 +242,7 @@ text-transform: uppercase;
 }
 .link-studio{
 color: #f4f4fd;
-font-family:"Raleway",sans-serif;;
+font-family:'Raleway',sans-serif;
 font-size:18px;
 font-weight:800;
 line-height:21px; /* 116.667% */
@@ -249,6 +250,7 @@ letter-spacing:0.54px;
 text-transform:uppercase;
 }
 .footer-text{
+font-family:'Raleway',sans-serif;
 color: rgba(244, 244, 253, 1);
 /* Body */
 font-size:18px;
