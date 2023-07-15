@@ -23,6 +23,30 @@ list-style-type:none;
 .list{
 list-style:none;
 }
+/*section-1*/
+
+.link-logo{
+font-family:"Raleway", sans-serif;
+color: #4D5AE5;
+font-weight:800;
+font-size:18px;
+line-height:1.17;
+letter-spacing:0.03em;
+text-transform:uppercase;
+text-decoration: none;
+}
+.link-studio{
+color: #4D5AE5;
+font-family: Raleway;
+font-size:18px;
+font-weight:800;
+line-height:1.16px;
+letter-spacing:0.54px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+
 /*button-1>all*/
 .click-all{
 font-family:"Roboto", sans-serif;
@@ -98,37 +122,31 @@ background-color: #F4F4FD;
 font-family:inherit;
 cursor:pointer; 
 }
-
 /*button-5>marketing*/
 
 /*bth-title*/
-.click-bth{
-
+.click-bth:hover{
+background-color: #4D5AE5;
 font-family:inherit;
+font-weight:500;
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.04em;
+color: #ffffff;
+background-color: #404BBF;
+cursor: pointer;
 }
-.link-logo{
-font-family:"Raleway", sans-serif;
-color: #4D5AE5;
-font-weight:800;
-font-size:18px;
-line-height:1.17;
-letter-spacing:0.03em;
-text-transform:uppercase;
-text-decoration: none;
+.click-bth:active{
+background-color: #404BBF;
+cursor: pointer;
 }
+/*bth-title*/
+/*section>1*/
+
+
 .list{
 list-style:none;
 
-}
-
-.span{
-color: #4D5AE5;
-font-family: Raleway;
-font-size:18px;
-font-weight:800;
-line-height:1.16px;
-letter-spacing:0.54px;
-text-transform: uppercase;
 }
 
 
@@ -151,6 +169,10 @@ line-height:1.7;
 letter-spacing:2%;
 }
 
+
+
+
+
 body{
 font-family:'Roboto', sans-serif;
 color: #434455;
@@ -167,6 +189,12 @@ text-align:center;
 .caption{
 background-color: #FFF;
 }
+
+.h1{
+line-height: 1.07;
+letter-spacing: 0.02em;
+}
+
 .h2{
 
 }
@@ -199,8 +227,8 @@ line-height:1.17;
     letter-spacing:0.54px;
     text-transform: uppercase;
 }
-.Studio{
-color: #2e2f42;
+.link-studio{
+color: #f4f4fd;
 font-family:"Raleway",sans-serif;;
 font-size:18px;
 font-weight:800;
