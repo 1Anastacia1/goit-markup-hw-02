@@ -47,15 +47,16 @@ text-decoration:none;
 
 .logo-link{
 font-family:'Raleway',sans-serif;
-color:-brand #2e2f42;
+color: #4d5ae5;
 font-weight:800;
 font-size:18px;
 line-height:1.17;
 letter-spacing:0.03em;
+text-decoration:none;
 text-transform:uppercase;
 }
 .link-studio{
-color: #4d5ae5;
+color: #2e2f42;
 font-family:'Raleway',sans-serif;
 font-size:18px;
 font-weight:800;
@@ -270,7 +271,7 @@ letter-spacing:0.02em;
 text-transform:capitalize;
 color: #2e2f42;
 }
-list-pic{
+.list-pic{
 background: lightgray;
 }
 .img{
@@ -289,7 +290,7 @@ list-style:none;
 background-color: #2E2F42;
 }
 .footer-logo-link{
-color: var(--cloud, #f4f4fd);
+color: var(--iris, #4d5ae5);
 font-family:'Raleway',sans-serif;
 line-height:1.17;
 font-size:18px;   
@@ -298,7 +299,7 @@ letter-spacing:0.54px;
 text-transform: uppercase;
 }
 .link-studio{
-color: var(--iris, #4d5ae5);
+color: var(--cloud, #f4f4fd);
 font-family:'Raleway',sans-serif;
 font-size:18px;
 font-weight:800;
