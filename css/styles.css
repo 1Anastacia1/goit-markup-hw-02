@@ -42,7 +42,7 @@ list-style:none;
 .header-link{
 text-decoration:none;
 }
-.span-header{
+.header-title-logo{
 color: #2e2f42 ;
 text-decoration:none;
 }
@@ -272,7 +272,7 @@ color: var(--white, #FFF);
 text-align:center;
 /* Header 1 */
 font-size:56px;
-line-height:1.70;
+line-height:1.07;
 letter-spacing:0.02em;
 }
 
@@ -324,10 +324,16 @@ letter-spacing:0.02em;
 color: #2e2f42;
 line-height:1.07;
 }
-
-.caption-list-text{
+.text-sub{
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.02em;
+color: #434455;
+}
+.caption-text{
 list-style:none;
 }
+
 
 .caption{
 background-color: #FFFFFF;
@@ -417,7 +423,7 @@ color: #434455;
 background: lightgray;
 }
 .img{
-background: lightgray;
+background: #d3d3d3;
 }
 
 /*footer*/
