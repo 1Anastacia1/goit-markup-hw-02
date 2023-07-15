@@ -1,17 +1,15 @@
 :root{
-    color: #4D5AE5;
-    color: #4d5ae5;
-    color: #FFF;
-    color: #F4F4FD;
-    color: rgba(244, 244, 253, 1);
-    color: #2E2F42;
+--color: #4D5AE5;
+--color: #4d5ae5;
+--color: #FFF;
+--color: #F4F4FD;
+--color: rgba(244, 244, 253, 1);
+--color: #2E2F42;
 
-    background: #404BBF;
-    
-    background-color:rgba(244, 244, 253, 1);
-    
-    background-color: #2E2F42;
-    background-color: #2E2F42;
+--background: #404BBF;
+--background-color:rgba(244, 244, 253, 1);
+--background-color: #2E2F42;
+--background-color: #2E2F42;
 }
 
 a{
