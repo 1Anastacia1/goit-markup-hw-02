@@ -4,7 +4,7 @@
 --brand-color:-brand #FFF;
 --brand-color:-brand #F4F4FD;
 --brand-color:-brand #FFFFFF;
---brand-color:-brand rgba(244, 244, 253, 1);
+--brand-color: var(--cloud, #F4F4FD);
 --brand-color:-brand #2E2F42;
 --brand-color: var(--slate, #434455);
 
@@ -164,12 +164,13 @@ font-weight:400;
 line-height:24px;
 letter-spacing:0.32px;
 }
-.header-title-icon{
---background-color: #2E2F42;
+.title-icon{
+background: var(--navyblue, #2E2F42);
+
 }
 
-.header-title{
---color: #FFF;
+.title{
+color: var(--white, #FFF);
 text-align:center;
 /* Header 1 */
 font-size:56px;
@@ -250,7 +251,7 @@ text-transform:uppercase;
 }
 .footer-text{
 font-family:'Raleway',sans-serif;
-color: rgba(244, 244, 253, 1);
+color: var(--cloud, #F4F4FD);
 /* Body */
 font-size:18px;
 font-weight:400;
