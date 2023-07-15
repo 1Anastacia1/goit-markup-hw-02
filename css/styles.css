@@ -20,8 +20,6 @@ Line-height:16px;
 ul,ol{
 list-style-type:none;
 }
-.list{
-list-style:none;
 }
 /*section-1*/
 .link{
@@ -29,10 +27,13 @@ text-decoration:none;
 }
 .list{
 list-style:none;
+
+}
+.header-link{
+text-decoration:none;
 }
 
-
-.link-logo{
+.link{
 font-family:'Raleway',sans-serif;
 color: #4D5AE5;
 font-weight:800;
@@ -229,7 +230,7 @@ list-style:none;
 .footer{
 background-color: #2E2F42;
 }
-.footer-link-logo{
+.footer-logo{
 color: #4d5ae5;
 font-family:"Raleway",sans-serif;
 line-height:1.17;
