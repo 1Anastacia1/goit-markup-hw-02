@@ -46,7 +46,7 @@ color: #4D5AE5;
 
 .logo-link{
 font-family:'Raleway',sans-serif;
-color:-brand #2E2F42;
+color:-brand #2e2f42;
 font-weight:800;
 font-size:18px;
 line-height:1.17;
@@ -54,7 +54,7 @@ letter-spacing:0.03em;
 text-transform:uppercase;
 }
 .link-studio{
-color: #4D5AE5;
+color: #4d5ae5;
 font-family:'Raleway', sans-serif;
 font-size:18px;
 font-weight:800;
@@ -142,32 +142,8 @@ cursor:pointer;
 }
 /*button-5>marketing*/
 
-/*bth-title*/
-.click-bth:hover{
-background-color: #4D5AE5;
-font-family:inherit;
-font-weight:500;
-font-size:16px;
-line-height:1.5;
-letter-spacing:0.04em;
-color: #ffffff;
-background-color: #404BBF;
-cursor: pointer;
-}
-.click-bth:active{
-background-color: #404BBF;
-cursor: pointer;
-}
-/*bth-title*/
 /*section>1*/
 
-
-.text{
-font-size:16px;
-font-weight:400;
-line-height:24px;
-letter-spacing:0.32px;
-}
 .title-icon{
 background: var(--navyblue, #2E2F42);
 font-weight:700;
@@ -178,12 +154,45 @@ color: var(--white, #FFF);
 text-align:center;
 /* Header 1 */
 font-size:56px;
-line-height:1.7;
-letter-spacing:2%;
+line-height:1.70;
+letter-spacing:0.02em;
 }
 
+/*bth-title*/
+.click-bth{
+font-family: "Roboto", sans-serif;
+background-color: #4D5AE5;
+font-family:inherit;
+font-weight:500;
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.04em;
+color: #ffffff;
+cursor: pointer;
+}
+.click-bth:hover{
+font-family: "Roboto", sans-serif;
+background-color: #404BBF
+font-family:inherit;
+font-weight:500;
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.04em;
+color: #ffffff;
+cursor: pointer;
+}
 
-
+.click-bth:active{
+background-color: #404BBF;
+cursor:pointer;
+}
+/*bth-title*/
+.text{
+    font-size:16px;
+    font-weight:400;
+    line-height:24px;
+    letter-spacing:0.32px;
+    }
 
 
 body{
@@ -203,14 +212,24 @@ background-color: #FFF;
 line-height: 1.07;
 letter-spacing: 0.02em;
 }
-.h2{
 
-}
 /*section3*/
 .oul-team{
 background-color: #F4F4FD;
 }
-.pic{
+.h2{
+font-size:36px;
+line-height:1.11;
+text-align:center;
+color: #2e2f42;
+font-family:Roboto;
+font-size:36px;
+font-weight: 700;
+line-height:40px; /* 111.111% */
+letter-spacing:0.72px;
+text-transform:capitalize;
+}
+list-pic{
 background: lightgray;
 }
 .img{
