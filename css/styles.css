@@ -13,7 +13,7 @@
 }
 
 a{
-text-decoration: none ;
+text-decoration:none;
 Size:12px;
 Line-height:16px;
 }
@@ -25,18 +25,22 @@ list-style:none;
 }
 /*section-1*/
 .link{
-text-decoration: none
+text-decoration:none;
+}
+.list{
+list-style:none;
 }
 
+
 .link-logo{
-font-family: 'Raleway', sans-serif;
+font-family:'Raleway',sans-serif;
 color: #4D5AE5;
 font-weight:800;
 font-size:18px;
 line-height:1.17;
 letter-spacing:0.03em;
 text-transform:uppercase;
-text-decoration: none;
+text-decoration:none;
 }
 .link-studio{
 color: #4D5AE5;
@@ -45,14 +49,14 @@ font-size:18px;
 font-weight:800;
 line-height:1.16px;
 letter-spacing:0.54px;
-text-transform: uppercase;
-text-decoration: none;
+text-transform:uppercase;
+text-decoration:none;
 }
 
 
 /*button-1>all*/
 .click-all{
-font-family:"Roboto", sans-serif;
+font-family:"Roboto",sans-serif;
 font-weight:500;
 font-size:16px;
 line-height:1.5;
@@ -63,7 +67,7 @@ font-family:inherit;
 cursor:pointer;
 }
 .click:hover{
-font-family: inherit;
+font-family:inherit;
 color: #FFFFFF;
 background-color: #404BBF;
 }
@@ -75,7 +79,7 @@ background-color: #404BBF;
 
 /*button-2>web-site*/
 [type]=button.clik-web-site{
-font-family:"Roboto", sans-serif;
+font-family:"Roboto",sans-serif;
 font-weight:500;
 font-size:16px;
 line-height:1.5;
@@ -218,10 +222,14 @@ list-style:none;
 
 }
 
+
+
+/*footer*/
+
 .footer{
 background-color: #2E2F42;
 }
-.footer-logo{
+.footer-link-logo{
 color: #4d5ae5;
 font-family:"Raleway",sans-serif;
 line-height:1.17;
