@@ -172,14 +172,14 @@ cursor: pointer;
 }
 .click-bth:hover{
 font-family: "Roboto", sans-serif;
-background-color: #404BBF
+background-color: #404BBF;
 font-family:inherit;
 font-weight:500;
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.04em;
 color: #ffffff;
-cursor: pointer;
+cursor:pointer;
 }
 
 .click-bth:active{
@@ -204,19 +204,16 @@ background-color:#FFFFFF;
 .caption-list{
 }
 
-.caption{
+.list-caption{
 background-color: #FFF;
 }
 
 .h1{
-line-height: 1.07;
-letter-spacing: 0.02em;
+line-height:1.07;
+letter-spacing:0.02em;
 }
 
 /*section3*/
-.oul-team{
-background-color: #F4F4FD;
-}
 .h2{
 font-size:36px;
 line-height:1.11;
@@ -228,6 +225,47 @@ font-weight: 700;
 line-height:40px; /* 111.111% */
 letter-spacing:0.72px;
 text-transform:capitalize;
+}
+.oul-team{
+background-color: #F4F4FD;
+}
+.team{
+font-size:36px;
+line-height:1.11; 
+text-align:center;
+letter-spacing:0.02em;
+text-transform:capitalize;
+color:#2e2f42
+}
+.list-img{
+list-style:none;
+}
+.img{
+background-color: #FFFFFF;
+}
+.team-slogan{
+font-weight:500;
+font-size:20px;
+line-height:1.2;
+letter-spacing:0.02em;
+color: #2e2f42;
+}
+.team-clogan-text{
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.02em;
+color: #434455;
+}
+
+
+
+.heading{
+font-size:36px;
+line-height:1.11;
+text-align:center;
+letter-spacing:0.02em;
+text-transform:capitalize;
+color: #2e2f42;
 }
 list-pic{
 background: lightgray;
@@ -247,8 +285,8 @@ list-style:none;
 .footer{
 background-color: #2E2F42;
 }
-.footer-logo{
-color: var(--cloud, #F4F4FD);
+.footer-logo-link{
+color: var(--cloud, #f4f4fd);
 font-family:'Raleway',sans-serif;
 line-height:1.17;
 font-size:18px;   
@@ -257,7 +295,7 @@ letter-spacing:0.54px;
 text-transform: uppercase;
 }
 .link-studio{
-color: var(--iris, #4D5AE5);
+color: var(--iris, #4d5ae5);
 font-family:'Raleway',sans-serif;
 font-size:18px;
 font-weight:800;
