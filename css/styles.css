@@ -277,7 +277,7 @@ line-height:1.5;
 letter-spacing:0.02em;
 color: #434455;
 }
-.heading{
+.heading-img{
 font-size:36px;
 line-height:1.11;
 text-align:center;
@@ -292,24 +292,23 @@ text-transform:capitalize;
 .picture-text-list{
 list-style:none;
 }
-/*.heading{
+.heading{
 font-weight:500;
 font-size:36px;
-line-height:1.11;
-letter-spacing:0.02em;
-}*/
-.heading-text{
-font-weight:500;
-font-size:20px;
 line-height:1.2;
 letter-spacing:0.02em;
 color: #2e2f42;
 }
+
 .text{
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.02em;
 color: #434455;
+}
+.pic-list{
+text-decoration: none;
+
 }
 .pic{
 background: lightgray;
