@@ -44,9 +44,6 @@ text-decoration:none;
 list-style:none;
 
 }
-.header-logo{
-text-decoration:none;
-}
 .header-title-logo{
 color: #2e2f42 ;
 text-decoration:none;
@@ -71,12 +68,6 @@ letter-spacing:0.54px;
 text-transform:uppercase;
 text-decoration:none;
 }
-.header-menu-item{
-font-weight:500;
-font-size:16px;
-line-height:1.5;
-letter-spacing:0.02em;
-color:#2e2f42
 }
 .header-memu{
 font-family:'Raleway',sans-serif;
