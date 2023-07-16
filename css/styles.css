@@ -58,6 +58,9 @@ color: #404bbf;
 .header-menu-item-li{
 text-decoration:none;
 }
+.header-menu-item link{
+text-decoration:none;
+}
 .header-menu-list{
 font-weight: 500;
 font-size: 16px;
@@ -121,6 +124,9 @@ font-size:16px;
 line-height:1.5;
 letter-spacing:0.02em;
 color: #434455;
+}
+.header-soc-item link{
+text-decoration:none;
 }
 .header-soc-link{
 font-family:'Raleway',sans-serif;
