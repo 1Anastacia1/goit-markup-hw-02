@@ -113,8 +113,8 @@ color: #404bbf;
 .header-soc-link:focus{
 color: #404bbf;
 }
-/*button-1>all*/
-.click-all{
+/*button-1-section>all*/
+.click-menu-button{
 font-family:'Roboto',sans-serif;
 font-weight:500;
 font-size:16px;
@@ -125,92 +125,12 @@ background-color: #F4F4FD;
 font-family:inherit;
 cursor:pointer;
 }
-.click-all:hover{
+.click-menu-button:hover{
 font-family:inherit;
 color: #FFFFFF;
 background-color: #404BBF;
 }
-.click-all:focus{
-color: #FFFFFF;
-background-color: #404BBF;
-}
-.click-web-site{
-font-family:'Roboto' sans-serif;
-font-weight:500;
-font-size:16px;
-line-height:1.5;
-letter-spacing:0.04em;
-color: #4d5ae5;
-background-color: #F4F4FD;
-font-family:inherit;
-cursor:pointer;
-}
-.click-web-site:hover{
-font-family:inherit;
-color: #FFFFFF;
-background-color: #404BBF;
-}
-.click-web-site:focus{
-color: #FFFFFF;
-background-color: #404BBF;
-}
-.click-app{
-font-family:'Roboto',sans-serif;
-font-weight:500;
-font-size:16px;
-line-height:1.5;
-letter-spacing:0.04em;
-color: #4d5ae5;
-background-color: #F4F4FD;
-font-family:inherit;
-cursor:pointer;
-list-style:none;
-text-decoration:none;
-
-}
-.click-app:hover{
-color: #FFFFFF;
-background-color: #404BBF;
-}
-.click-app:focus{
-color: #FFFFFF;
-background-color: #404BBF;
-}
-.click-design{
-font-family:'Roboto',sans-serif;
-font-weight:500;
-font-size:16px;
-line-height:1.5;
-letter-spacing:0.04em;
-color: #4d5ae5;
-background-color: #F4F4FD;
-font-family:inherit;
-cursor:pointer;
-}
-.click-design:hover{
-color: #FFFFFF;
-background-color: #404BBF;
-}
-.click-design:focus{
-color: #FFFFFF;
-background-color: #404BBF;
-}
-.click-marketing{
-font-family:'Roboto',sans-serif;
-font-weight:500;
-font-size:16px;
-line-height:1.5;
-letter-spacing:0.04em;
-color: #4d5ae5;
-background-color: #F4F4FD;
-font-family:inherit;
-cursor:pointer;
-}
-.click-marketing:hover{
-color: #FFFFFF;
-background-color: #404BBF;
-}
-.click-marketing:focus{
+.click-menu-button:focus{
 color: #FFFFFF;
 background-color: #404BBF;
 }
@@ -394,7 +314,7 @@ font-family:'Raleway',sans-serif;
 line-height:1.17;
 font-size:18px;   
 font-weight:800;
-letter-spacing:0.03px;
+letter-spacing:0.03em;
 text-transform: uppercase;
 }
 .link-studio{
