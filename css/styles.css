@@ -60,15 +60,7 @@ text-decoration:none;
 .header-menu-item link{
 text-decoration:none;
 }
-.header-menu-list{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-list-style:none;
-text-decoration:none;
-color: #2e2f42;
-}
+
 
 .header-list{
 list-style:none;
@@ -90,7 +82,7 @@ text-transform:uppercase;
 
 }
 .header-menu{
-font-family:'Raleway',sans-serif;
+font-family:'Roboto',sans-serif;
 text-decoration:none;
 color: #2e2f42;
 font-weight:500;
@@ -205,7 +197,7 @@ font-weight:500;
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.04em;
-color: #404BBF;
+color: #FFF;
 cursor:pointer;
 }
 .title-click-bth:focus{
