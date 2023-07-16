@@ -277,7 +277,7 @@ line-height:1.5;
 letter-spacing:0.02em;
 color: #434455;
 }
-/*.heading{
+.heading{
 font-size:36px;
 line-height:1.11;
 text-align:center;
@@ -285,18 +285,12 @@ color: #2e2f42;
 font-family:"Roboto";
 font-size:36px;
 font-weight: 700;
-line-height:40px; /* 111.111% 
+line-height:40px;
 letter-spacing:0.02px;
 text-transform:capitalize;
-}*/
+}
 .picture-text-list{
 list-style:none;
-}
-.heading{
-font-weight:500;
-font-size:36px;
-line-height:1.11;
-letter-spacing:0.02em;
 }
 .heading-text{
 font-weight:500;
