@@ -70,13 +70,10 @@ text-decoration:none;
 .header-list{
 list-style:none;
 }
-.header-title-logo{
-color: #2e2f42 ;
-text-decoration:none;
-}
+
 .header-logo{
 font-family:'Raleway',sans-serif;
-color: #4d5ae5;
+color: #2e2f42 ;
 font-weight:800;
 font-size:18px;
 line-height:1.17;
@@ -210,9 +207,6 @@ cursor:pointer;
 
 
 /*section-2*/
-.caption-soc-text {
-list-style:none;
-}
 .subject{
 font-weight:500;
 font-size:20px;
