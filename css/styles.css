@@ -35,6 +35,12 @@ text-transform:uppercase;
 text-decoration:none;
 list-style:none;
 }
+.header-memu-item:hover{
+color: #404bbf;
+}
+.header-memu-item:focus{
+color: #404bbf;
+}
 .header-menu-item-studio{
 font-family:'Raleway';
 color: #2e2f42 ;
