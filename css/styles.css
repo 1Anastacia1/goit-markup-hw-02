@@ -17,14 +17,12 @@
 --brand-background-color:rgba(244, 244, 253, 1);
 --brand-background-color: var(--navyblue, #2E2F42);
 }
-
 a{
 text-decoration:none;
 }
 ul,ol{
 list-style-type:none;
 }
-
 /*section-1*/
 .header-menu-item{
 font-family:'Raleway',sans-serif;
@@ -88,6 +86,12 @@ list-style:none;
 }
 .header-soc-list{
 list-style:none;
+font-family:'Raleway',sans-serif;
+color: #2e2f42;
+font-weight:500;
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.02em;
 }
 .header-soc-item{
 font-size:16px;
@@ -180,7 +184,6 @@ background-color: #404BBF;
 cursor:pointer;
 }
 /*bth-title*/
-
 body{
 font-family:'Roboto', sans-serif;
 color: var(--slate, #434455);
@@ -206,31 +209,25 @@ color: #434455;
 list-style:none;
 }
 
-
 .caption{
 background-color: #FFFFFF;
 }
-
 .list-havigation{
 line-height:1.07;
 letter-spacing:0.02em;
 }
-
 /*section3*/
 .team-img{
 font-size:36px;
 line-height:1.11;
 color: #F4F4FD;
-font-family:"Roboto";san-serift;
+font-family:"Roboto";
 font-size:36px;
 font-weight: 700;
 line-height:40px; /* 111.111% */
 letter-spacing:0.02px;
 text-transform:capitalize;
-
-
 }
-
 .img-text{
 list-style:none;
 background-color: #FFFFFF;
@@ -251,13 +248,12 @@ line-height:1.5;
 letter-spacing:0.02em;
 color: #434455;
 }
-
 .heading{
 font-size:36px;
 line-height:1.11;
 text-align:center;
 color: #2e2f42;
-font-family:"Roboto";san-serift;
+font-family:"Roboto";
 font-size:36px;
 font-weight: 700;
 line-height:40px; /* 111.111% */
@@ -267,17 +263,11 @@ text-transform:capitalize;
 .picture-text-list{
 list-style:none;
 }
-
-.picture-list-item{
-}
-
 .heading{
 font-weight:500;
 font-size:36px;
 line-height:1.11;
 letter-spacing:0.02em;
-color: #2e2f42;
-text-align: center;
 }
 .heading-text{
 font-weight:500;
@@ -286,7 +276,6 @@ line-height:1.2;
 letter-spacing:0.02em;
 color: #2e2f42;
 }
-
 .text{
 font-size:16px;
 line-height:1.5;
@@ -296,8 +285,6 @@ color: #434455;
 .pic{
 background: lightgray;
 text-decoration: none;
-
-
 }
 .img{
 background: #d3d3d3;
@@ -326,7 +313,6 @@ line-height:1.17; /* 116.667% */
 letter-spacing:0.03em;
 text-transform:uppercase;
 }
-
 .footer-text{
 color: var(--cloud, #F4F4FD);
 font-family:'Raleway',sans-serif;
