@@ -55,6 +55,9 @@ color: #404bbf;
 .header-menu-item-studio:focus{
 color: #404bbf;
 }
+.header-menu-item-li{
+text-decoration:none;
+}
 .header-menu-list{
 font-weight: 500;
 font-size: 16px;
@@ -161,7 +164,7 @@ background-color: #404BBF;
 
 /*section-1*/
 .title-icon{
-background: var(--navyblue, #2E2F42);
+background: #2e2f42;
 font-weight:700;
 }
 .title{
