@@ -173,7 +173,7 @@ color: #ffffff;
 text-align:center;
 }
 .picture-list-item{
-background-color: #2e2f42;
+
 
 }
 /*bth-title*/
@@ -292,6 +292,12 @@ text-transform:capitalize;
 .picture-text-list{
 list-style:none;
 }
+/*.heading{
+font-weight:500;
+font-size:36px;
+line-height:1.11;
+letter-spacing:0.02em;
+}*/
 .heading-text{
 font-weight:500;
 font-size:20px;
