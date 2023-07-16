@@ -17,13 +17,20 @@
 --brand-background-color:rgba(244, 244, 253, 1);
 --brand-background-color: var(--navyblue, #2E2F42);
 }
+body{
+font-family:'Roboto', sans-serif;
+color: var(--slate, #434455);
+background-color:#FFFFFF;
+line-height:1.5;
+letter-spacing:0.02em;
+}
 a{
 text-decoration:none;
 }
 ul,ol{
 list-style-type:none;
 }
-/*section-1*/
+/*header*/
 .header-menu-item{
 font-family:'Raleway',sans-serif;
 color: var(--iris, #4d5ae5);
@@ -60,11 +67,8 @@ text-decoration:none;
 .header-menu-item link{
 text-decoration:none;
 }
-
-
 .header-list{
 list-style:none;
-
 }
 .header-title-logo{
 color: #2e2f42 ;
@@ -79,7 +83,6 @@ line-height:1.17;
 letter-spacing:0.03em;
 text-decoration:none;
 text-transform:uppercase;
-
 }
 .header-menu{
 font-family:'Roboto',sans-serif;
@@ -173,10 +176,6 @@ letter-spacing:0.02em;
 color: #ffffff;
 text-align:center;
 }
-.picture-list-item{
-
-
-}
 /*bth-title*/
 .title-click-bth{
 font-family:'Roboto', sans-serif;
@@ -208,14 +207,12 @@ background-color: #404BBF;
 cursor:pointer;
 }
 /*bth-title*/
-body{
-font-family:'Roboto', sans-serif;
-color: var(--slate, #434455);
-background-color:#FFFFFF;
-line-height:1.5;
-letter-spacing:0.02em;
-}
+
+
 /*section-2*/
+.caption-soc-text {
+list-style:none;
+}
 .subject{
 font-weight:500;
 font-size:20px;
@@ -234,7 +231,11 @@ color: #434455;
 list-style:none;
 }
 .caption-list{
-list-style:none;
+font-weight:500;
+font-size:20px;
+line-height:1.2;
+letter-spacing:0.02em;
+color: #2e2f42;
 
 }
 .caption{
@@ -272,6 +273,7 @@ line-height:1.2;
 letter-spacing:0.02em;
 color: #2e2f42;
 }
+/*section-4*/
 .team-slogan-text{
 font-size:16px;
 line-height:1.5;
