@@ -83,9 +83,11 @@ text-transform:uppercase;
 }
 .header-title-logo{
 color:  #2e2f42 ;
-}
-.header-title-logo-portfolio{
+}.header-title-logo-portfolio{
 color:  #4d5ae5 ;
+}
+.header-logo-portfolio{
+color:  #2e2f42;
 }
 .header-menu{
 font-family:'Roboto',sans-serif;
