@@ -83,7 +83,8 @@ text-transform:uppercase;
 }
 .header-title-logo{
 color:  #2e2f42 ;
-}.header-title-logo-portfolio{
+}
+.header-title-logo-portfolio{
 font-family:'Raleway',sans-serif;
 color: #4d5ae5;
 font-weight:800;
@@ -93,7 +94,7 @@ letter-spacing:0.03em;
 text-decoration:none;
 text-transform:uppercase;
 }
-.header-logo-portfolio{
+.header-logo-portfolio link{
 color:  #2e2f42;
 }
 .header-menu{
