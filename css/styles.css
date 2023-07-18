@@ -224,6 +224,10 @@ cursor:pointer;
 /*bth-title*/
 
 
+
+
+
+
 /*section-3*/
 .caption-text{
 list-style:none;
@@ -264,6 +268,7 @@ background-color: #FFFFFF;
 }
 /*section-3*/
 
+
 /*section-4*/
 .our-team-img{
 font-size:36px;
@@ -272,19 +277,17 @@ background-color: #F4F4FD;
 font-family:"Roboto";
 text-align:center;
 font-weight: 700;
-line-height:40px; /* 111.111% */
+line-height:40px; 
 letter-spacing:0.02em;
 text-transform:capitalize;
 }
+
 .our-team-img-text{
 list-style:none;
 background-color: #FFFFFF;
 }
 .our-team-text-pic{
 background-color: #FFFFFF;
-}
-.our-team-img{
-background: #d3d3d3;
 }
 .our-team-slogan{
 font-weight:500;
@@ -300,6 +303,9 @@ letter-spacing:0.02em;
 color: #434455;
 }
 /*section-4*index*/
+
+
+
 
 /*section-2*portfolio*/
 .picture-text-list{
