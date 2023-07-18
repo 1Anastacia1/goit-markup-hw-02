@@ -31,10 +31,12 @@ ul,ol{
 list-style-type:none;
 }
 /*header*/
-.header-link{
+
+
+/* .header-link{
 max-width: 1440px;
 max-height: 72px;
-}
+} */
 
 .header-menu-item-portfolio{
 font-family:'Raleway',sans-serif;
@@ -219,7 +221,10 @@ cursor:pointer;
 
 
 /*section-3*/
-.subject{
+.caption-text{
+list-style:none;
+}
+.caption-subject{
 font-weight:500;
 font-size:20px;
 line-height:1.2;
@@ -227,15 +232,13 @@ letter-spacing:0.02em;
 color: #2e2f42;
 list-style:none;
 }
-.text-sub{
+.caption-text-sub{
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.02em;
 color: #434455;
 }
-.caption-text{
-list-style:none;
-}
+
 .caption-list{
 font-weight:500;
 font-size:20px;
@@ -247,7 +250,7 @@ color: #2e2f42;
 line-height:1.07;
 letter-spacing:0.02em;
 }
-.caption{
+.heading-caption{
 background-color: #FFFFFF;
 }
 /*section-3*/
